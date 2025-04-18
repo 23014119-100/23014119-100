@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MelodyHub - Playlists</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-900 text-white">
+    <header class="bg-gray-800 p-5 flex justify-between items-center">
+        <div class="text-2xl font-bold text-green-500">MelodyHub</div>
+        <nav>
+            <ul class="flex space-x-5">
+                <li><a href="./index.html" class="text-white hover:text-green-500 transition">Home</a></li>
+                <li><a href="./browse.html" class="text-white hover:text-green-500 transition">Browse</a></li>
+                <li><a href="./playlists.html" class="text-white hover:text-green-500 transition">Playlists</a></li>
+                <li><a href="./artists.html" class="text-white hover:text-green-500 transition">Artists</a></li>
+                <li><a href="./about.html" class="text-white hover:text-green-500 transition">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="p-8">
+        <h1 class="text-3xl mb-8">Your Playlists</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div class="bg-gray-700 rounded-lg overflow-hidden hover:scale-103 transition">
+                <img src="/a1/diljit.jpg" alt="Playlist Cover" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="font-semibold mb-2">Workout Mix</h3>
+                    <p class="text-gray-400 text-sm">50 songs • 3h 45m</p>
+                </div>
+            </div>
+            <div class="bg-gray-700 rounded-lg overflow-hidden hover:scale-103 transition">
+                <img src="/a1/sidhu.jpg" alt="Playlist Cover" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="font-semibold mb-2">Chill Vibes</h3>
+                    <p class="text-gray-400 text-sm">35 songs • 2h 30m</p>
+                </div>
+            </div>
+            <div class="bg-gray-700 rounded-lg overflow-hidden hover:scale-103 transition">
+                <img src="/a1/cheema.jpeg" alt="Playlist Cover" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="font-semibold mb-2">Road Trip</h3>
+                    <p class="text-gray-400 text-sm">75 songs • 5h 15m</p>
+                </div>
+            </div>
+            <div class="bg-gray-600 rounded-lg flex flex-col justify-center items-center cursor-pointer hover:bg-gray-500 transition">
+                <i class="fas fa-plus text-5xl mb-4"></i>
+                <h3 class="font-semibold">Create New Playlist</h3>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="bg-gray-800 py-8 text-center">
+        <p>&copy; 2023 MelodyHub. All rights reserved.</p>
+    </footer>
+</body>
+</html>

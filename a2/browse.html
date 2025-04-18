@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MelodyHub - Browse</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white">
+    <header class="bg-gray-800 p-5 flex justify-between items-center">
+        <div class="text-2xl font-bold text-green-500">MelodyHub</div>
+        <nav>
+            <ul class="flex space-x-5">
+                <li><a href="index.html" class="text-white hover:text-green-500 transition">Home</a></li>
+                <li><a href="browse.html" class="text-white hover:text-green-500 transition">Browse</a></li>
+                <li><a href="playlists.html" class="text-white hover:text-green-500 transition">Playlists</a></li>
+                <li><a href="artists.html" class="text-white hover:text-green-500 transition">Artists</a></li>
+                <li><a href="about.html" class="text-white hover:text-green-500 transition">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="py-12 px-5 text-center">
+        <input type="text" placeholder="Search for songs, artists, or albums..." 
+               class="w-full max-w-2xl px-5 py-3 rounded-full bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-green-500">
+    </section>
+    
+    <section class="px-5 pb-12">
+        <h2 class="text-3xl mb-8">Browse Categories</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-5">
+            <div class="bg-gray-700 rounded-lg overflow-hidden hover:scale-105 transition">
+                <img src="/a1/pop.jpg" alt="Pop Music" class="w-full h-36 object-cover">
+                <h3 class="p-4 text-center">Pop</h3>
+            </div>
+            <div class="bg-gray-700 rounded-lg overflow-hidden hover:scale-105 transition">
+                <img src="/a1/rock.jpg" alt="Rock Music" class="w-full h-36 object-cover">
+                <h3 class="p-4 text-center">Rock</h3>
+            </div>
+            <div class="bg-gray-700 rounded-lg overflow-hidden hover:scale-105 transition">
+                <img src="/a1/hip.jpg" alt="Hip Hop Music" class="w-full h-36 object-cover">
+                <h3 class="p-4 text-center">Hip Hop</h3>
+            </div>
+            <div class="bg-gray-700 rounded-lg overflow-hidden hover:scale-105 transition">
+                <img src="/a1/elecronic.webp" alt="Electronic Music" class="w-full h-36 object-cover">
+                <h3 class="p-4 text-center">Electronic</h3>
+            </div>
+            <div class="bg-gray-700 rounded-lg overflow-hidden hover:scale-105 transition">
+                <img src="/a1/jazz.jpg" alt="Jazz Music" class="w-full h-36 object-cover">
+                <h3 class="p-4 text-center">Jazz</h3>
+            </div>
+            <div class="bg-gray-700 rounded-lg overflow-hidden hover:scale-105 transition">
+                <img src="/a1/classic.jpg" alt="Classical Music" class="w-full h-36 object-cover">
+                <h3 class="p-4 text-center">Classical</h3>
+            </div>
+            <div class="bg-gray-700 rounded-lg overflow-hidden hover:scale-105 transition">
+                <img src="/a1/cointry.jpg" alt="Country Music" class="w-full h-36 object-cover">
+                <h3 class="p-4 text-center">Country</h3>
+            </div>
+            <div class="bg-gray-700 rounded-lg overflow-hidden hover:scale-105 transition">
+                <img src="/a1/r and b.jpeg" alt="R&B Music" class="w-full h-36 object-cover">
+                <h3 class="p-4 text-center">R&B</h3>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="bg-gray-800 py-8 text-center">
+        <p>&copy; 2023 MelodyHub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
